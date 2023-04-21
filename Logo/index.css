@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/*Universal Selector Made margin and padding to 0px*/
+*{
+margin:0px;
+padding:0px;
+}
+
+/* align the elements to centre using the flexbox */
+.container{
+display: flex;
+justify-content: center;
+margin-top:180px;
+}
+
+
+/* Designed the logo and rotate to 30 deg */
+.logo{
+width: 250px;
+height: 250px;
+border-top: 45px solid red;
+border-right: 45px solid silver;
+border-bottom: 45px solid blue;
+border-left:45px solid green;
+transform: rotate(30deg);
+}
+
+
+/* Align the Fonts and made text rotate to inital value */
+.font{
+text-align: center;
+margin-top:40%;
+font-family: 'Poppins', sans-serif;
+font-weight:bold;
+font-size:18px;
+transform: rotate(-30deg);
+}
+
+
+/* https://644217c301a06001c547710a--stately-kleicha-2796bf.netlify.app/ */
